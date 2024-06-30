@@ -14,13 +14,9 @@ nav {
     color: #000000;
 }
 
-a:link { color: #ffffff;; } 
+a:link { color: #ffffff; } 
 a:visited { color: #00009e; } 
 a:hover { color:#402a4cf7; } 
-
-a {
-  color: white;
-}
 
 main {
   width: 100%;
@@ -46,7 +42,7 @@ h2 {
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 1em;
+  line-height: 1.6; /* Increased line height for better readability */
 }
 
 table {
