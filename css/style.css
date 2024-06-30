@@ -26,6 +26,14 @@ section {
     padding:.5em;
 }
 
+h1, h2, h3 {
+  font: 700 Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
