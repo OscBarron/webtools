@@ -12,12 +12,7 @@ nav {
   padding-left: 1em;
   background-color: #b8b8b8;
   color: #000000;
-}
-
-
-a:link { color: #ffffff; } 
-a:visited { color: #00009e; } 
-a:hover { color:#402a4cf7; } 
+} 
 
 section {
   width: 100%;
@@ -27,13 +22,18 @@ section {
   padding:.5em;
 }
 
+a:link { color:#290303; } 
+a:visited { color:#00FF00; } 
+a:hover { color:#FF00FF; } 
+a:active { color:#0000FF; }
+
 h1, h2, h3 {
-  color: #020248;
+  color: #000000;
   font: 700 Georgia, 'Times New Roman', Times, serif;
 } 
 
 p {
-  color:#0b3169;
+  color:#000000;
   font-family: Arial, Helvetica, Times, sans-serif;
   line-height: 1.6; 
 }
@@ -43,7 +43,7 @@ table {
   width: 100%;
 }
 table caption {
-  color: #020248;
+  color: #000000;
   font-weight: 800;
   font-size: 1.5rem;
 }
