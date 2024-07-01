@@ -9,6 +9,7 @@ header {
   background-color: #36486b;
   color: #ffffff;
   padding: 1em;
+  text-align: center;
 }
 
 nav {
@@ -17,6 +18,18 @@ nav {
   padding-left: 1em;
   background-color: #b8b8b8;
   color: #000000;
+  text-align: center;
+}
+
+ul {
+  background: #1259A1;
+  padding: 20px;
+}
+ul li {
+  background: #cce5ff;
+  color: #000000;
+  margin: 5px;
+  text-align: center;
 }
 
 section {
