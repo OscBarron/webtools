@@ -14,17 +14,10 @@ nav {
   color: #000000;
 }
 
+
 a:link { color: #ffffff; } 
 a:visited { color: #00009e; } 
 a:hover { color:#402a4cf7; } 
-
-main {
-  width: 80%;
-  height: 24em;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #36486b;
-}
 
 section {
   width: 100%;
