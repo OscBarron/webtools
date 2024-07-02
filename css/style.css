@@ -133,3 +133,6 @@ footer {
   padding-top: .7em;
   margin: 0;
 }
+.footerclass { 
+  font-family: Monaco, Consolas, "Lucida Console", monospace; 
+} 
