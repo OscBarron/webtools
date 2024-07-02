@@ -25,27 +25,27 @@ nav {
   width: 100%;
   height: 1.5em;
   padding-left: 1em;
-  background-color: #b8b8b8;
-  color: #000000;
+  background-color: #3a3a3a;
+  color: #ffffff;
   text-align: center;
 }
 
 .navclass{
   background-color: #36486b;
-  color: #000000;
+  color: #ffffff;
   height: 3em;
 }
 
 a {
-  color: white;
+  color: #0000ff;
 }
 
 main {
   width: 100%;
-  height: 60.em;
+  height: 60em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #2a57a5;
+  background-color: #ffffff;
 }
 
 .mainclass{
@@ -68,18 +68,18 @@ section {
   width: 100%;
   height: 100%;
   float: left;
-  background-color: #9292D3;
+  background-color: #d1d1e0;
   padding: .5em;
 }
 
 a:hover {
-  color: #69ffad;
+  color: #ff6347;
 }
 a:link {
-  color: #000000;
+  color: #0000ff;
 }
 a:visited {
-  color: #1008ff;
+  color: #800080;
 }
 
 h1, h2 ,h3, h4 {
@@ -124,8 +124,8 @@ footer {
   width: 100%;
   height: 7em;
   clear: both;
-  background-color: #b8b8b8;
-  color: #000000;
+  background-color: #3a3a3a;
+  color: #ffffff;
   text-align: center;
   padding-top: .7em;
 }
