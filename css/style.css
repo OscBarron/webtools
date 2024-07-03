@@ -39,11 +39,7 @@ nav {
   height: 3em; 
 } 
 
-a {
-  color: #ffffff;
-}
-
-a:link { color:#290303; }  
+a:link { color:#ffffff; }  
 a:visited { color:#0000FF; }  
 a:hover { color:#FF00FF; }  
 
