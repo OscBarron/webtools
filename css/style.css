@@ -13,8 +13,8 @@ body {
   height: 10%;
   padding: 1em;
   text-align: center;
-  background-color: #36486b;  
-  color: #ffffff; 
+  background-color: #36486b;
+  color: #ffffff;   
 }
 
 .nav{ 
@@ -25,31 +25,28 @@ body {
   padding-left: 1em;
   text-align: center;
   margin: 0;
+  font-family: Monaco, Consolas, "Lucida Console", monospace; 
 } 
 
 nav a:link { color:#ffffff; }  
 nav a:visited { color:#0000FF; }  
 nav a:hover { color:#FF00FF; } 
 
-a:link { color:#4873aa; }  
-a:visited { color:#0000FF; }  
-a:hover { color:#FF00FF; } 
-
-footer a:link { color:#000000; }  
-footer a:visited { color:#0000FF; }  
-footer a:hover { color:#FF00FF; } 
-
-.toc {
-  list-style-type: none;
-}
-
 .main {
-  background-color: #fefbd8; 
+  background-color: #ffffff; 
   color: #000000; 
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
   padding: 1em 0;
+}
+
+a:link { color:#4873aa; }  
+a:visited { color:#0000FF; }  
+a:hover { color:#FF00FF; } 
+
+.toc {
+  list-style-type: none;
 }
 
 ul {
@@ -61,6 +58,8 @@ ul li {
   background: #cce5ff;
   color: #000000;
   text-align: center;
+  font-family: Monaco, Consolas, "Lucida Console", monospace; 
+
 }
 
 section {
@@ -71,18 +70,21 @@ section {
   margin: 0;
 }
 
-h1{
+h1 {
   color: #ffffff;
   font-weight: 900;
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
 h2, 
-h3, 
-h4, 
-h5, 
+h3,
+h4,
+h5,
 h6 {
   color: #000000;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 900;
+  font-family: 700 "Lucida Console", "Courier New", monospace;
+  font-size: 1.5rem;
 }
 
 p, 
@@ -120,6 +122,10 @@ tbody tr:nth-child(even) {
 tbody tr:nth-child(odd) {
   background-color: #ffffff;
 }
+
+footer a:link { color:#000000; }  
+footer a:visited { color:#0000FF; }  
+footer a:hover { color:#FF00FF; } 
 
 .footer {
   width: 100%;
