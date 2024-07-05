@@ -32,8 +32,8 @@ nav a:visited { color:#0000FF; }
 nav a:hover { color:#FF00FF; } 
 
 
-a:link { color:#4873aa; }  
-a:visited { color:#0000FF; }  
+a:link { color:#0000FF; }  
+a:visited { color:#4873aa; }  
 a:hover { color:#FF00FF; } 
 
 .toc {
