@@ -28,9 +28,9 @@ body {
   font-family: Monaco, Consolas, "Lucida Console", monospace; 
 } 
 
-nav a:link { color:#ffffff; }  
-nav a:visited { color:#0000FF; }  
-nav a:hover { color:#FF00FF; } 
+.nav a:link { color:#ffffff; }  
+.nav a:visited { color:#ff0000; }  
+.nav a:hover { color:#FF00FF; } 
 
 .main {
   background-color: #ffffff; 
@@ -123,9 +123,9 @@ tbody tr:nth-child(odd) {
   background-color: #ffffff;
 }
 
-footer a:link { color:#0000FF; }  
-footer a:visited { color:#000000; }  
-footer a:hover { color:#FF00FF; } 
+.footer a:link { color:#0000FF; }  
+.footer a:visited { color:#000000; }  
+.footer a:hover { color:#FF00FF; } 
 
 .footer {
   width: 100%;
