@@ -28,9 +28,10 @@ body {
   font-family: Monaco, Consolas, "Lucida Console", monospace; 
 } 
 
-nav a:hover { color:#ff00ff; } 
 nav a:link { color:#ffffff; }  
-nav a:visited { color:#0000ff; }  
+nav a:visited { color:#0000ff; } 
+nav a:hover { color:#ff00ff; } 
+nav a:active {color:#ff0000;} 
 
 .main {
   background-color: #ffffff; 
@@ -42,8 +43,9 @@ nav a:visited { color:#0000ff; }
 }
 
 a:link { color:#2D476C;} 
-a:visited { color:#0000ff; }  
-a:hover { color:#ff00ff; }  
+a:visited { color:#0000ff; }   
+a:hover { color:#ff00ff; } 
+a:active {color:#ff0000;}
 
 .toc {
   list-style-type: none;
@@ -123,9 +125,10 @@ tbody tr:nth-child(odd) {
   background-color: #ffffff;
 }
 
-footer a:hover { color:#FF00FF; } 
 footer a:link { color:#000000; }  
-footer a:visited { color:#0000FF; }  
+footer a:visited { color:#0000FF; } 
+footer a:hover { color:#FF00FF; } 
+footer a:active {color:#ff0000;} 
 
 .footer {
   width: 100%;
