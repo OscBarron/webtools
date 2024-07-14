@@ -80,6 +80,11 @@ ul li {
 
 }
 
+.images {
+ width: 180;
+ height: 180;
+}
+
 section {
   width: 100%;
   float: left;
