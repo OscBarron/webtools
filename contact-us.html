@@ -73,7 +73,7 @@
         </p>  
         <fieldset class="form">
           <legend>Contact Info</legend>
-          <h3>Personal Info</h3>  
+          <h2>Personal Info</h2>  
         <form id="jokeForm" action="success.html" method="get" class="form">    
             <p> 
             <label title="Enter your full name.">Name: <input type="text" name="Name" placeholder="Name"></label>
@@ -82,17 +82,17 @@
             <label title="Enter your email address.">E-Mail: <input type="text" name="Email" placeholder="Email"></label>
             </p>
             <p>
-               <label title="Select your gender.">Gender:</label>
-                <select name="GenderID">
-                  <option value="">&larr;&nbsp;Select&nbsp;&rarr;</option>
-                  <option value="1">Male</option>
-                  <option value="2">Female</option>
-                  <option value="3">Transgender Male</option>
-                  <option value="4">Transgender Female</option>
-                  <option value="5">Nonbinary</option>
-                  <option value="6">Genderfluid</option>
-                  <option value="7">Other</option>
-                </select> 
+                <label for="genderSelect" title="Select your gender.">Gender:</label>
+                <select id="genderSelect" name="GenderID">
+                    <option value="">&larr;&nbsp;Select&nbsp;&rarr;</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Transgender Male</option>
+                    <option value="4">Transgender Female</option>
+                    <option value="5">Nonbinary</option>
+                    <option value="6">Genderfluid</option>
+                    <option value="7">Other</option>
+                </select>
             </p>     
          <p> 
          <label for="message">Type in description here</label>
