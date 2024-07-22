@@ -44,10 +44,10 @@ nav a:active {
 .main {
   background-color: #ffffff; 
   color: #000000; 
-  max-width: 75%;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em 0;
+  padding: 0;
 }
 
 a:link { 
@@ -69,7 +69,7 @@ a:active {
 
 ul {
   background: #1259a1;
-  padding: 20px;
+  padding: 15px;
   margin: 0;
 }
 ul li {
@@ -77,10 +77,9 @@ ul li {
   color: #000000;
   text-align: center;
   font-family: Monaco, Consolas, "Lucida Console", monospace; 
-
 }
 
-.thumb {
+.thumbnail {
  width: 250px;
  height: 250px;
 }
@@ -119,7 +118,7 @@ td {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 70%;
   margin: 0;
 }
 table caption {
@@ -144,6 +143,25 @@ tbody tr:nth-child(even) {
 }
 tbody tr:nth-child(odd) {
   background-color: #ffffff;
+}
+
+.form{
+  margin: 0 auto;
+  width: 65%;
+}
+
+textarea {
+  width: 100%; 
+  box-sizing: border-box; 
+  resize: vertical; 
+} 
+
+.subbox{
+  text-align: center;
+  font-family: Monaco, Consolas, "Lucida Console", monospace; 
+  margin: 0 auto;
+  padding: 70px;
+  list-style-type: none;
 }
 
 footer a:link { 
