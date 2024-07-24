@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+aside {
+ width: 80%;
+ padding-left: 15px;
+ margin-left: 15px;
+ float: left;
+ font-style: italic;
+ background-color: #d3d3d3;
+}
+
+.thumbnail{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subbox{  
+ text-align: center; 
+ margin: 0 auto;
+ padding: 70px;
+ list-style-type: none;
+ height: 120px;
+ width: 430px;
+ border: 5px solid black;
+ border-radius: 20px;
+}
