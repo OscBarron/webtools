@@ -1,187 +1,191 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-}
-
-.header{
-  width: 100%;
-  height: 10%;
-  padding: 1em;
-  text-align: center;
-  background-color: #36486b;
-  color: #ffffff;   
-}
-
-.nav{ 
-  background-color: #36486b; 
-  color: #ffffff; 
-  width: 100%;
-  height: 1.5em;
-  padding-left: 1em;
-  text-align: center;
-  margin: 0;
-  font-family: Monaco, Consolas, "Lucida Console", monospace; 
+body { 
+ font-family: Arial, Helvetica, sans-serif; 
+ line-height: 1.6; 
+ margin: 0; 
 } 
-
-nav a:link { 
-  color:#ffffff; 
-}  
-nav a:visited { 
-  color:#0000ff; 
+ 
+.header{ 
+width: 100%; 
+height: 10%;
+padding: 1em; 
+text-align: center; 
+background-color: #36486b; 
+color: #ffffff;    
 } 
-nav a:hover { 
-  color:#ff00ff; 
-} 
-nav a:active {
-  color:#ff0000;
-} 
-
-.main {
-  background-color: #ffffff; 
-  color: #000000; 
-  max-width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-}
-
-a:link { 
-  color:#2D476C;
-} 
-a:visited { 
-  color:#0000ff; 
-}   
-a:hover { 
-  color:#ff00ff; 
-} 
-a:active {
-  color:#ff0000;
-}
-
-.toc {
-  list-style-type: none;
-}
-
-ul {
-  background: #1259a1;
-  padding: 15px;
-  margin: 0;
-}
-ul li {
-  background: #cce5ff;
-  color: #000000;
-  text-align: center;
-  font-family: Monaco, Consolas, "Lucida Console", monospace; 
-}
-
-.thumbnail {
- width: 180px;
- height: 250px;
+ 
+.nav{  
+ background-color: #36486b;  
+ color: #ffffff;  
+ width: 100%; 
+ height: 1.5em; 
+ padding-left: 2em; 
  text-align: center; 
-}
-
+ margin: 0; 
+}  
+ 
+nav a:link {  
+ color:#ffffff;
+}   
+nav a:visited {  
+ color:#0000ff;  
+}  
+nav a:hover {  
+ color:#ff00ff;  
+}  
+nav a:active { 
+  color:#ff0000; 
+}  
+ 
+.main { 
+  background-color: #ffffff;  
+  color: #000000;  
+  width: 80vw; 
+  height:24em;
+  padding: 1px 16px;
+  margin-left: auto;
+} 
+ 
+a:link {  
+ color:#2D476C; 
+}  
+ a:visited {  
+ color:#0000ff;  
+}    
+a:hover {  
+ color:#ff00ff;  
+}  
+a:active { 
+ color:#ff0000; 
+} 
+ 
+.toc { 
+ list-style-type: none; 
+} 
+ 
+ul { 
+ background: #1259a1; 
+ padding: 15px; 
+ margin: 0; 
+ width: 100%; 
+ float: left;
+} 
+ 
+ul li { 
+ background: #cce5ff; 
+ color: #000000; 
+ text-align: center; 
+ font-family: Monaco, Consolas, "Lucida Console", monospace;  
+ padding-left: 0; 
+} 
+ 
+.thumbnail { 
+ width: 185px; 
+ height: 210px; 
+ text-align: center; 
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+} 
+ 
 aside {
- width: 95%;
- padding-left: 15px;
- margin-left: 15px;
- float: left;
- font-style: italic;
- background-color: #7a8dfb;
-}
-
-section {
+  width: 80%;
+  padding: 1vw;
+  margin-left: 15px;
+  float: left;
+  position: sticky;
+  top: 0;
+}  
+ 
+section {  
+ background-color: #d1d1e0;  
  width: 100%;
- float: left;
- background-color: #d1d1e0;
- padding: 1.5em;
- margin: 0;
-}
-
-h1 {
-  color: #ffffff;
-  font-weight: 900;
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-
-h2, 
-h3,
-h4,
-h5,
-h6 {
-  color: #000000;
-  font-weight: 900;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 1.5rem;
-}
-
-p, 
-td {
-  color: #000000;
-  font-weight: 550;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-table {
-  border-collapse: collapse;
-  width: 70%;
-  margin: 0;
-}
-table caption {
-  color: #000000;
-  font-weight: 790;
-  font-size: 1.2rem;
-}
-th, 
-td {
-  text-align: left;
-  padding: 8px;
-}
-tr {
-  border-bottom: thin solid #000000;
-}
-thead tr {
-  background-color: #000000;
-  color: #fefbd8;
-}
-tbody tr:nth-child(even) {
-  background-color: #fefbd8;
-}
-tbody tr:nth-child(odd) {
-  background-color: #ffffff;
-}
-
-.form{
-  margin: 0 auto;
-  width: 65%;
-}
-
-textarea {
-  width: 100%; 
-  box-sizing: border-box; 
-  resize: vertical; 
+ padding: 1.5em;  
+ margin: 0px;  
 }  
+ 
+h1 { 
+ color: #ffffff; 
+ font-weight: 900; 
+ font-family: "Lucida Console", "Courier New", monospace; 
+ text-align: center;
+} 
+ 
+h2,  
+h3, 
+h4, 
+h5, 
+h6 { 
+ color: #000000; 
+ font-weight: 900; 
+ font-family: "Lucida Console", "Courier New", monospace; 
+ font-size: 1.5rem; 
+} 
+ 
+p,  
+td { 
+ color: #000000; 
+ font-weight: 550; 
+ font-family: Arial, Helvetica, sans-serif; 
+} 
+ 
+table { 
+ border-collapse: collapse; 
+ width: 70%; 
+ margin: 0; 
+} 
+table caption { 
+ color: #000000; 
+ font-weight: 790; 
+ font-size: 1.2rem; 
+} 
+th,  
+td { 
+ text-align: left; 
+ padding: 8px; 
+} 
+tr { 
+ border-bottom: thin solid #000000; 
+} 
+thead tr { 
+ background-color: #000000; 
+ color: #fefbd8; 
+} 
+tbody tr:nth-child(even) { 
+ background-color: #fefbd8; 
+} 
+tbody tr:nth-child(odd) { 
+ background-color: #ffffff; 
+} 
+ 
+.form{ 
+ margin: 0 auto; 
+ width: 65%; 
+} 
+ 
+textarea { 
+ width: 100%;  
+ box-sizing: border-box;  
+ resize: vertical;  
+}   
 
-footer a:link { 
-  color:#000000; 
+footer a:link {  
+ color:#000000;  
+}   
+footer a:visited {  
+ color:#0000FF;  
+} 
+footer a:hover {  
+ color:#FF00FF;  
 }  
-footer a:visited { 
-  color:#0000FF; 
-} 
-footer a:hover { 
-  color:#FF00FF; 
-} 
-footer a:active {
-  color:#ff0000;
-} 
-
-.footer {
-  width: 100%;
-  height: 7em;
-  clear: both;
-  background-color: #92A4C8;
-  text-align: center;
-  padding-top: .7em;
-  margin: 0;
-  font-family: Monaco, Consolas, "Lucida Console", monospace; 
+footer a:active { 
+ color:#ff0000; 
+}  
+ 
+.footer { 
+ width: 100%; 
+ height: 7em; 
+ clear: both; 
+ background-color: #92A4C8; 
+ text-align: center; 
+ padding-top: .7em; 
+ margin: 0; 
+ font-family: Monaco, Consolas, "Lucida Console", monospace;  
 } 
