@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Christopher Walken's Page</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/nav-menu.css">
 <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
@@ -29,25 +29,29 @@
 <body>
     <header class="header">
         <h1>Welcome to Christopher Walken's page</h1>
+        <a href="images/Topic-Tribute-modified.png" target="_blank"><img src="images/Topic-Tribute-modified.png" alt="Website_Logo"></a>
     </header>
 
-    <nav class="nav">
-        <a href="index.html">Home</a> | <a href="contact-us.html">Contact Us</a> | <a href="#">About Us</a>
+    <nav class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="#">Teams</a>
+        <a href="#">About Us</a>
     </nav>
 
-    <main class="main">     
+    <aside>
+        <ul>
+            <h2>Contents</h2>
+            <li class="toc"><a href="#Introduction">Introduction</a></li>
+            <li class="toc"> <a href="#Career">Career</a></li>
+            <li class="toc"><a href="#Personal_Life">Personal Life</a></li>
+        </ul>
+    </aside> 
 
-        <aside>
-            <ul>
-                <li class="toc"><a href="#Introduction">Introduction</a></li>
-                <li class="toc"> <a href="#Career">Career</a></li>
-                <li class="toc"><a href="#Personal_Life">Personal Life</a></li>
-            </ul>
-        </aside> 
-
+    <main class="main">  
         <section id="Introduction">
             <article>
-            <h2><em>Introduction</em></h2>
+            <h3><em>Introduction</em></h3>
             <figure class="thumbnail">
                 <a href="images/Christopher_Walken_Intro-lg.jpg" target="_blank"><img src="images/Christopher_Walken_Intro-thumb.jpg" alt="Christopher_Walken_Intro"></a>
                 <figcaption>The main actor himself.</figcaption>
@@ -69,8 +73,7 @@
         </section>
         <section id="Career">   
             <article>
-            <h3>
-            <em>Career</em></h3>
+            <h4><em>Career</em></h4>
             <figure class="thumbnail">
                 <a href="images/Christopher_Walkens_JB_Film-lg.jpg" target="_blank"><img src="images/Christopher_Walkens_JB_Film-thumb.jpg" alt="Christopher_Walken_Film"></a>
                 <figcaption>"Jungle Book" (2016).</figcaption>
@@ -95,10 +98,9 @@
                 continually reinvent himself and captivate audiences across generations.
             </p>   
             </article>
-
-            <p>Interested in seeing the movies that Christopher Walkens was in? Well here are recommended
-            movies that might peak your interest.</p>
             <table>
+            <p class="tp">Interested in seeing the movies that Christopher Walkens was in? Well here are recommended
+            movies that might peak your interest.</p>
              <caption>Top Five Recommended Movies.</caption>
                 <thead>
                     <tr>
@@ -145,7 +147,7 @@
 
         <section id="Personal_Life">
             <article>
-            <h4><em>Personal Life</em></h4>
+            <h5><em>Personal Life</em></h5>
             <figure class="thumbnail">
                 <a href="images/Christopher_Walken_Stageplay-lg.jpg" target="_blank"><img src="images/Christopher_Walken_Stageplay-thumb.jpg" alt="Christopher_Walken_Stageplay"></a>
                 <figcaption>"HurlyBurly" (1984).</figcaption>

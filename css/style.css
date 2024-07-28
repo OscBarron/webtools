@@ -1,113 +1,116 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
 body { 
  font-family: Arial, Helvetica, sans-serif; 
- line-height: 1.6; 
+ line-height: 1.8; 
  margin: 0; 
+ background-color:#1259a1;
 } 
  
 .header{ 
 width: 100%; 
 height: 10%;
-padding: 1em; 
+padding: 2vw; 
 text-align: center; 
 background-color: #36486b; 
-color: #ffffff;    
+color: #ffffff;   
 } 
  
-.nav{  
- background-color: #36486b;  
- color: #ffffff;  
- width: 100%; 
- height: 1.6em; 
- padding-left: 2em; 
- text-align: center; 
- margin: 0; 
-}  
- 
-nav a:link {  
- color:#ffffff;
-}   
-nav a:visited {  
- color:#0000ff;  
-}  
-nav a:hover {  
- color:#ff00ff;  
-}  
-nav a:active { 
-  color:#ff0000; 
-}  
- 
-.main { 
-  background-color: #ffffff;  
-  color: #000000;  
-  width: 80vw; 
-  height:24em;
-  padding: 1px 16px;
-  margin-left: auto;
+header img{
+ max-width: 16vw; 
+ position: absolute;
+ width: 140px; 
+ height: 140px; 
+ top: 3%;
+ left: 45%;
 } 
- 
-a:link {  
- color:#2D476C; 
-}  
- a:visited {  
- color:#0000ff;  
-}    
-a:hover {  
- color:#ff00ff;  
-}  
-a:active { 
- color:#ff0000; 
+  
+main { 
+ background-color: #ffffff;  
+ color: #000000;  
+ width: 80vw;
 } 
+
+.conheader{
+ text-align: center;
+}
+
+.conmain{
+ background-color: #ffffff;  
+ color: #000000;  
+ width: 100%;
+}
  
 .toc { 
  list-style-type: none; 
 } 
  
+a:link {  
+  color:#2D476C; 
+}  
+a:visited {  
+  color:#0000ff;  
+}    
+a:hover {  
+  color:#ff00ff;  
+}  
+a:active { 
+  color:#ff0000; 
+} 
+
 ul { 
  background: #1259a1; 
- padding: 15px; 
- margin: 0; 
- width: 100%; 
- float: left;
+ padding: 7px; 
+ width: 18vw;
+ float: left; 
 } 
  
 ul li { 
- background: #cce5ff; 
- color: #000000; 
+ background: #cce5ff;  
  text-align: center; 
  font-family: Monaco, Consolas, "Lucida Console", monospace;  
- padding-left: 0; 
+ padding: 35px; 
+ margin-bottom: 7px;
+ height: 100px;
 } 
- 
+
 .thumbnail { 
- width: 185px; 
+ max-width: 185px; 
  height: 210px; 
  text-align: center; 
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+ float: right;
 } 
  
 aside {
-  width: 80%;
-  padding: 1vw;
-  margin-left: 15px;
-  float: left;
-  position: sticky;
-  top: 0;
+ max-width: 20%;
+ height: 1vw;
+ position: sticky;
+ top: 0;
+ float: right;
+ padding-right: 10px;
 }  
  
 section {  
  background-color: #d1d1e0;  
  width: 100%;
- padding: 1.5em;  
- margin: 0px;  
+ padding: 1.5em;
+ margin: 0%;
 }  
  
 h1 { 
  color: #ffffff; 
- font-weight: 900; 
  font-family: "Lucida Console", "Courier New", monospace; 
  text-align: center;
+ padding-top: 10vw;
+ margin: 0;
+ font-size: 3vw;
+ text-shadow: 3px 2px 5px #202020;
 } 
- 
 h2,  
 h3, 
 h4, 
@@ -117,6 +120,7 @@ h6 {
  font-weight: 900; 
  font-family: "Lucida Console", "Courier New", monospace; 
  font-size: 1.5rem; 
+ margin-top: 1em;
 } 
  
 p,  
@@ -129,7 +133,8 @@ td {
 table { 
  border-collapse: collapse; 
  width: 70%; 
- margin: 0; 
+ margin-left: auto; 
+ margin-right: auto;
 } 
 table caption { 
  color: #000000; 
@@ -154,10 +159,19 @@ tbody tr:nth-child(even) {
 tbody tr:nth-child(odd) { 
  background-color: #ffffff; 
 } 
- 
+
+.tp{
+  text-align: center;
+}
+
+.conhead{
+  text-align: center;
+}
+
 .form{ 
- margin: 0 auto; 
- width: 65%; 
+  margin: 0 auto; 
+  width: 50%; 
+  padding: 1px;
 } 
  
 textarea { 
@@ -179,7 +193,7 @@ footer a:active {
  color:#ff0000; 
 }  
  
-.footer { 
+footer { 
  width: 100%; 
  height: 7em; 
  clear: both; 

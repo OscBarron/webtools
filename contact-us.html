@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Christopher Walken's Page</title>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/nav-menu.css">
 <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
@@ -25,18 +26,20 @@
 <meta name="theme-color" content="#ffffff">
 </head>
 
-
-
 <body>
-
     <header class="header">
         <h1>Contact Us page</h1>
+        <a href="images/Topic-Tribute-modified.png" target="_blank"><img src="images/Topic-Tribute-modified.png" alt="Website_Logo"></a>
     </header>
 
-    <nav class="nav">
-        <a href="index.html">Home</a> | <a href="contact-us.html">Contact Us</a> | <a href="#">About Us</a>
+    <nav class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="#">Teams</a>
+        <a href="#">About Us</a>
     </nav>
-    <main class="main">
+
+    <main class="conmain">
      <section>
         <table>
             <caption>Funniest Joke of the Month</caption>
@@ -73,7 +76,7 @@
         </p>  
         <fieldset class="form">
           <legend>Contact Info</legend>
-          <h2>Personal Info</h2>  
+          <h2 class="conhead">Personal Info</h2>  
         <form id="jokeForm" action="success.html" method="get" class="form">    
             <p> 
             <label title="Enter your full name.">Name: <input type="text" name="Name" placeholder="Name"></label>

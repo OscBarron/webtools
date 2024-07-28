@@ -2,24 +2,54 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
-}
+}   
+
+.clearfix::after {
+ content: "";
+ clear: both;
+ display: table;
+}    
 
 article {
  content: "";
  clear: both;
- display: block;
+ display: table;   
  border: solid medium #092834;
- border-radius: 16px;
- width: 100%;
- max-width: 100%;
- min-width: 100%;
+ border-radius: 10px;
+ width: 250vw;
+ max-width: 900px;
+ min-width: 500px;
  margin: 1vw auto;
+ padding: 15px;
+ background-color: #267799;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
-   
+
+article h3 {
+ margin-top: 0;
+ padding: 20px 2vw 20px;
+ background-color: #0a6278;
+ border-radius: 7px 7px 0 0;
+}
+
+article h4 {
+ margin-top: 0;
+ padding: 20px 2vw 20px;
+ background-color: #0a6278;
+ border-radius: 7px 7px 0 0;
+}
+
+article h5 {
+ margin-top: 0;
+ padding: 20px 2vw 20px;
+ background-color: #0a6278;
+ border-radius: 7px 7px 0 0;
+}
+
 figure {
- float: right;
- width: 35vw;
- margin: 2vh 1vw;
+ float: right;    
+ max-width: 100%;
+ margin: 2vh 0;
 }
    
 figure img {
@@ -28,7 +58,6 @@ figure img {
  width: 185px;
  margin-left: auto;
  margin-right: auto;
- float: right;
 }
      
 figcaption {
@@ -36,27 +65,33 @@ figcaption {
  clear: both;
 }
      
- p {
- line-height: 1.5;
- margin-top: 3em;
+p {
+ line-height: 1.35;
+ margin-top: 2em;
+ font-size: 100%;
 }
 
-.submain{
- background-color: #ffffff; 
- color: #000000; 
- max-width: 90%;
- margin-left: auto;
- margin-right: auto;
- padding: 0;    
+.subhead{
+ text-align: center;   
 }
 
-.subbox{  
- text-align: center; 
- margin: 0 auto;
- padding: 0px;
- list-style-type: none;
- height: 160px;
- width: 850px;
- border: 5px solid rgb(0, 0, 0);
- border-radius: 20px;
-}
+.submain{ 
+ background-color: #ffffff;    
+ color: #000000;    
+ width: 100%; 
+ margin-left: auto; 
+ margin-right: auto;   
+} 
+   
+.subbox{     
+ background-color: #ffffff;     
+ text-align: center;  
+ margin: 0 auto; 
+ padding: 16px; 
+ list-style-type: none; 
+ height: 180px; 
+ width: 640px; 
+ border: 5px solid rgb(0, 0, 0); 
+ border-radius: 20px; 
+ padding: 30px; 
+} 
