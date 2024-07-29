@@ -111,7 +111,9 @@ h1 {
  font-size: 3vw;
  text-shadow: 3px 2px 5px #202020;
 } 
-h2,  
+h2{
+  color: #ffffff;
+}  
 h3, 
 h4, 
 h5, 
