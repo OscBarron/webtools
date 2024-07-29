@@ -21,35 +21,22 @@ article {
  min-width: 500px;
  margin: 1vw auto;
  padding: 15px;
- background-color: #267799;
+ background-color: #667ef5;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
-article h3 {
+article h3, article h4, article h5 {
  margin-top: 0;
  padding: 20px 2vw 20px;
- background-color: #0a6278;
- border-radius: 7px 6px 0 0;
-}
-
-article h4 {
- margin-top: 0;
- padding: 20px 2vw 20px;
- background-color: #0a6278;
+ background-color: #6667f5;
  border-radius: 7px 7px 0 0;
 }
-
-article h5 {
- margin-top: 0;
- padding: 20px 2vw 20px;
- background-color: #0a6278;
- border-radius: 7px 7px 0 0;
-}
-
+  
 figure {
  float: right;    
  max-width: 100%;
  margin: 2vh 0;
+ background-color: #6667f5;
 }
    
 figure img {

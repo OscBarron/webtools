@@ -14,12 +14,12 @@
   font-size: 18px;
 }
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #dddddd;
+  color: #000000;
 }
 .topnav a.active {
-  background-color: #0486aa;
-  color: white;
+  background-color: #035268;
+  color: #ffffff;
 }
   
 

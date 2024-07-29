@@ -63,7 +63,7 @@ a:active {
 } 
 
 ul { 
- background: #1259a1; 
+ background: #104F8E; 
  padding: 7px; 
  width: 18vw;
  float: left; 
@@ -82,7 +82,7 @@ ul li {
  max-width: 185px; 
  height: 210px; 
  text-align: center; 
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+ box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
  float: right;
 } 
  
