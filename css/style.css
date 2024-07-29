@@ -65,7 +65,7 @@ a:active {
 ul { 
  background: #104F8E; 
  padding: 7px; 
- width: 18vw;
+ width: 19vw;
  float: left;
 } 
  
@@ -87,7 +87,8 @@ ul li {
 } 
  
 .content{
- font-size: 20px; 
+ margin-top: 1px; 
+ font-size: 25px; 
  text-align: center;
  color: #ffffff;
  text-shadow: 3px 2px 5px #202020;
@@ -97,7 +98,7 @@ aside {
  max-width: 20%;
  height: 1vw;
  position: sticky;
- top: 60px;
+ top: 35px;
  float: right;
  margin-top: 1px;
 }  
@@ -136,12 +137,13 @@ td {
  font-weight: 550; 
  font-family: Arial, Helvetica, sans-serif; 
 } 
- 
+
 table { 
  border-collapse: collapse; 
  width: 70%; 
  margin-left: auto; 
  margin-right: auto;
+ border: solid medium #000000; 
 } 
 table caption { 
  color: #000000; 
