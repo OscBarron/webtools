@@ -62,6 +62,8 @@ p {
 }
 
 .tp{
+ background-color: #ffffff;  
+ border: 5px solid #000000;   
  width: 76vw;   
  margin-bottom: 20px; 
  text-align: center;
