@@ -25,8 +25,7 @@ article {
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
-article h1,
-article h2,
+
 article h3, 
 article h4, 
 article h5 {
@@ -66,10 +65,9 @@ p {
  width: 76vw;   
  margin-bottom: 20px; 
  text-align: center;
- background-color: #667ef5;         
- border: solid medium #000000; 
  border-radius: 10px; 
  padding: 30px; 
+ font-family: Arial, Helvetica, sans-serif; 
 }
 
 .subhead{

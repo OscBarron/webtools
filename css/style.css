@@ -119,8 +119,12 @@ h1 {
  font-size: 3vw;
  text-shadow: 3px 2px 5px #202020;
 } 
-h2, 
-h3, 
+h2,
+h3{
+ font-size: 25px; 
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif; 
+} 
 h4, 
 h5, 
 h6 { 
