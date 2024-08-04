@@ -163,7 +163,7 @@ aside {
  display: flex;  
  flex-wrap: wrap-reverse;
  overflow: hidden;
- bottom: 35px;
+ top: 35px;
 }
 
 .footer-column{           
