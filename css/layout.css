@@ -100,9 +100,9 @@ main {
 }
 
 aside {
- padding: 1em;
+ padding: 2em;
  align-items: baseline;   
-}
+ }
 
 .team-gallery {
  display: flex;
@@ -163,7 +163,6 @@ aside {
  display: flex;  
  flex-wrap: wrap-reverse;
  overflow: hidden;
- top: 35px;
 }
 
 .footer-column{           
