@@ -90,12 +90,12 @@ ul li {
 }
 
 aside {
- max-width: 20%;
- height: 1vw;
- position: sticky;
- top: 35px;
- float: right;
- margin-top: 1px;
+  max-width: 20%;
+  height: 1vw;
+  position: sticky;
+  top: 35px;
+  float: right;
+  margin-top: 1px;
 }  
 
 section{
