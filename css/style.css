@@ -17,13 +17,14 @@ header{
  text-align: center; 
  background-color: #36486b; 
  color: #ffffff;   
+ padding: 2%;
 } 
  
 header img{
  max-width: 40vw; 
  position: absolute; 
- height: 150px; 
- top: 4%;
+ height: 100px; 
+ top: 5%;
  left: 45%;
 } 
   
