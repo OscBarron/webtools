@@ -14,37 +14,29 @@ body {
 header{ 
  width: 100%; 
  height: 10%;
- padding: 2vw; 
  text-align: center; 
  background-color: #36486b; 
  color: #ffffff;   
 } 
  
 header img{
- max-width: 16vw; 
- position: absolute;
- width: 140px; 
- height: 140px; 
- top: 3%;
+ max-width: 40vw; 
+ position: absolute; 
+ height: 150px; 
+ top: 4%;
  left: 45%;
 } 
   
 main { 
- background-color: #ffffff;  
+ background-color: #d1d1e0;  
  color: #000000;  
  width: 80vw;
-} 
+}  
 
 .conheader{
  text-align: center;
-}
+} 
 
-.conmain{
- background-color: #ffffff;  
- color: #000000;  
- width: 100%;
-}
- 
 .toc { 
  list-style-type: none; 
 } 
@@ -65,8 +57,9 @@ a:active {
 ul { 
  background: #104F8E; 
  padding: 7px; 
- width: 19vw;
+ width: 18vw;
  float: left;
+ list-style-type: none ;
 } 
  
 ul li { 
@@ -84,6 +77,7 @@ ul li {
  text-align: center; 
  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
  float: right;
+ border: 1px solid #000000; 
 } 
  
 .content{
@@ -102,19 +96,19 @@ aside {
  float: right;
  margin-top: 1px;
 }  
- 
-section {  
- background-color: #d1d1e0;  
+
+section{
+ background-color: #d1d1e0; 
  width: 100%;
  padding: 1.5em;
  margin: 0%;
-}  
+}
  
 h1 { 
  color: #ffffff; 
  font-family: "Lucida Console", "Courier New", monospace; 
  text-align: center;
- padding-top: 10vw;
+ padding-top: 13vw;
  margin: 0;
  font-size: 3vw;
  text-shadow: 3px 2px 5px #202020;
@@ -204,10 +198,9 @@ footer a:active {
  
 footer { 
  width: 100%; 
- height: 7em; 
+ height: 10em; 
  clear: both; 
  background-color: #92A4C8; 
- text-align: center; 
  padding-top: .7em; 
  margin: 0; 
  font-family: Monaco, Consolas, "Lucida Console", monospace;  

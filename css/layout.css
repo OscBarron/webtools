@@ -1,6 +1,6 @@
 * {
  margin: 0;
- padding: 0;
+ padding: 0;   
  box-sizing: border-box;
 }   
 
@@ -16,7 +16,7 @@ article {
  display: table;   
  border: solid medium #092834;
  border-radius: 12px;
- width: 251vw;
+ width: 75vw;
  max-width: 900px;
  min-width: 500px;
  margin: 1vw auto;
@@ -24,7 +24,6 @@ article {
  background-color: #667ef5;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
-
 
 article h3, 
 article h4, 
@@ -49,7 +48,7 @@ figure img {
  margin-left: auto;
  margin-right: auto;
 }
-     
+
 figcaption {
  text-align: center;
  clear: both;
@@ -76,7 +75,7 @@ p {
  text-align: center;   
 }
 
-.submain{ 
+.secmain{ 
  background-color: #ffffff;    
  color: #000000;    
  width: 100%; 
@@ -88,11 +87,88 @@ p {
  background-color: #ffffff;     
  text-align: center;  
  margin: 0 auto; 
- padding: 16px; 
  list-style-type: none; 
  height: 180px; 
  width: 640px; 
  border: 5px solid #000000; 
  border-radius: 20px; 
- padding: 30px; 
+ padding: 60px; 
 } 
+
+.team-gallery {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center; 
+ align-content: center;
+ gap: 50px;
+}
+
+.team-member {
+ border: 2px solid #000000;
+ border-radius: 8px;
+ text-align: center;
+ background-color: #8b8bc2;
+ box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+ margin: 12px;
+ width: 25vw;
+ padding: 10px;
+}
+
+.team-member img {
+ max-width: 100%;
+ height: auto;
+ border-radius: 45%;
+ border: 2px solid #000000;  
+}
+
+.teamdesc{
+ background-color: #8b8bc2;
+ box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);      
+ text-align: center;  
+ padding: 38px; 
+ border: 2px solid #000000;
+ border-radius: 8px;
+ width: 85%;
+}
+
+.team-member h2,
+.team-member figcaption {
+ font-weight: bold;
+}
+
+.team-member p {
+ font-weight: normal;
+}
+
+.member1 {
+ order: 2;
+}
+.member2 {
+ order: 1; 
+}
+.member3 {  
+ order: 3;
+}
+
+.footer-container{      
+ display: flex;  
+ flex-wrap: wrap-reverse;
+}
+
+.footer-column{           
+ flex: 1;             
+ margin: 0 16px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.footer-center {
+ align-self: flex-end;
+}
+
+.footer-column a { 
+ text-decoration: none;
+ display: block;
+ margin-bottom: 10px;
+}
