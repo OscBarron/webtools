@@ -3,14 +3,14 @@
  padding: 0;
  box-sizing: border-box;
 }
-
+ 
 body { 
  font-family: Arial, Helvetica, sans-serif; 
  line-height: 1.8; 
  margin: 0; 
  background-color:#104F8E;
 } 
- 
+
 header{ 
  width: 100%; 
  height: 10%;
@@ -19,7 +19,7 @@ header{
  color: #ffffff;   
  padding-bottom: 12%;
 } 
- 
+  
 header img{
  max-width: 50vw; 
  position: absolute; 
@@ -27,30 +27,29 @@ header img{
  top: 1;
  left: 45%;
 } 
-  
+   
 main { 
  background-color: #d1d1e0;  
  color: #000000;  
  width: 80vw;
 }  
-
+ 
 .conheader{
  text-align: center;
 } 
- 
+  
 a:link {  
-  color:#2D476C; 
+ color:#2D476C; 
 }  
 a:visited {  
-  color:#0000ff;  
+ color:#0000ff;  
 }    
 a:hover {  
-  color:#ff00ff;  
+ color:#ff00ff;  
 }  
 a:active { 
-  color:#ff0000; 
+ color:#ff0000; 
 } 
-
  
 ul li { 
  list-style-type: none; 
@@ -73,7 +72,7 @@ ul li {
  float: right;
  border: 1px solid #000000; 
 } 
- 
+  
 .content{
  margin-top: 20px; 
  margin-left: -10vw;
@@ -82,7 +81,7 @@ ul li {
  color: #ffffff;
  text-shadow: 3px 2px 5px #202020;
 }
-
+ 
 aside {
  width: 100%;  
  max-width: 120px;
@@ -91,46 +90,46 @@ aside {
  text-decoration: none;
  float: right;
 }  
-
-section{
- background-color: #d1d1e0; 
- width: 100%;
- padding: 1.5em;
- margin: 0;
-}
  
+section{
+background-color: #d1d1e0; 
+width: 100%;
+padding: 1.5em;
+margin: 0;
+}
+  
 h1 { 
- color: #ffffff; 
- font-family: "Lucida Console", "Courier New", monospace; 
- text-align: center;
- padding-top: 1vw;
- margin: 0;
- font-size: 3vw;
- text-shadow: 3px 2px 5px #202020;
+color: #ffffff; 
+font-family: "Lucida Console", "Courier New", monospace; 
+text-align: center;
+padding-top: 1vw;
+margin: 0;
+font-size: 3vw;
+text-shadow: 3px 2px 5px #202020;
 } 
 h2,
 h3{
- font-size: 25px; 
- text-align: center;
- font-family: Arial, Helvetica, sans-serif; 
+font-size: 25px; 
+text-align: center;
+font-family: Arial, Helvetica, sans-serif; 
 } 
 h4, 
 h5, 
 h6 { 
- color: #000000; 
- font-weight: 900; 
- font-family: "Lucida Console", "Courier New", monospace; 
- font-size: 1.5rem; 
- margin-top: 1em;
+color: #000000; 
+font-weight: 900; 
+font-family: "Lucida Console", "Courier New", monospace; 
+font-size: 1.5rem; 
+margin-top: 1em;
 } 
- 
+  
 p,  
 td { 
- color: #000000; 
- font-weight: 550; 
- font-family: Arial, Helvetica, sans-serif; 
+  color: #000000; 
+  font-weight: 550; 
+  font-family: Arial, Helvetica, sans-serif; 
 } 
-
+ 
 table { 
  border-collapse: collapse; 
  width: 70%; 
@@ -149,48 +148,48 @@ td {
  padding: 8px; 
 } 
 tr { 
- border-bottom: thin solid #000000; 
+  border-bottom: thin solid #000000; 
 } 
 thead tr { 
- background-color: #000000; 
- color: #fefbd8; 
+  background-color: #000000; 
+  color: #fefbd8; 
 } 
 tbody tr:nth-child(even) { 
- background-color: #fefbd8; 
+  background-color: #fefbd8; 
 } 
 tbody tr:nth-child(odd) { 
- background-color: #ffffff; 
-} 
-
-.conhead{
- text-align: center;
-}
-
-.form{ 
- margin: 0 auto; 
- width: 50%; 
- padding: 1px;
+  background-color: #ffffff; 
 } 
  
+.conhead{
+  text-align: center;
+}
+ 
+.form{ 
+  margin: 0 auto; 
+  width: 50%; 
+  padding: 1px;
+} 
+  
 textarea { 
- width: 100%;  
- box-sizing: border-box;  
+  width: 100%;  
+  box-sizing: border-box;  
  resize: vertical;  
 }   
-
+ 
 footer a:link {  
- color:#000000;  
+  color:#000000;  
 }   
-footer a:visited {  
- color:#0000FF;  
+ footer a:visited {  
+  color:#0000FF;  
 } 
 footer a:hover {  
- color:#FF00FF;  
+  color:#FF00FF;  
 }  
 footer a:active { 
- color:#ff0000; 
+  color:#ff0000; 
 }  
- 
+  
 footer { 
  width: 100%; 
  height: 10em; 
@@ -199,4 +198,4 @@ footer {
  padding-top: .7em; 
  margin: 0; 
  font-family: Monaco, Consolas, "Lucida Console", monospace;  
-} 
+}  

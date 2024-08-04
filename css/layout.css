@@ -93,16 +93,15 @@ p {
  padding: 60px; 
 } 
 
-main {
- display: flex;
- flex-wrap: wrap;
- align-content: flex-start;
+main{
+ display: flex;  
+ flex-wrap: wrap; 
 }
 
-aside {
- padding: 2em;
- align-items: baseline;   
- }
+aside{
+ padding:10px;
+ align-items: baseline;
+}
 
 .team-gallery {
  display: flex;
