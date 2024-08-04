@@ -58,9 +58,10 @@ a:active {
 ul { 
  background: #104F8E; 
  padding: 7px; 
- width: 18vw;
+ width: 20vw;
  float: left;
- list-style-type: none ;
+ list-style-type: none;
+ overflow: hidden;
 } 
  
 ul li { 
@@ -90,12 +91,12 @@ ul li {
 }
 
 aside {
-  max-width: 20%;
-  height: 1vw;
-  position: sticky;
-  top: 35px;
-  float: right;
-  margin-top: 1px;
+ max-width: 20%;
+ height: 1vw;
+ position: sticky;
+ top: 35px;
+ float: right;
+ margin-top: 1px;
 }  
 
 section{

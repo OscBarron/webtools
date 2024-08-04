@@ -152,6 +152,7 @@ p {
  display: flex;  
  flex-wrap: wrap-reverse;
  overflow: hidden;
+ position: absolute;
 }
 
 .footer-column{           
