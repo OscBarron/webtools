@@ -21,11 +21,11 @@ header{
 } 
  
 header img{
-  max-width: 50vw; 
-  position: absolute; 
-  height: 10vw; 
-  top: 1;
-  left: 45%;
+ max-width: 50vw; 
+ position: absolute; 
+ height: 10vw; 
+ top: 1;
+ left: 45%;
 } 
   
 main { 
@@ -36,10 +36,6 @@ main {
 
 .conheader{
  text-align: center;
-} 
-
-.toc { 
- list-style-type: none; 
 } 
  
 a:link {  
@@ -55,23 +51,17 @@ a:active {
   color:#ff0000; 
 } 
 
-ul { 
- background: #104F8E; 
- padding-right: 11px;
- width: 16vw;
- float: left;
- list-style-type: none;
- overflow: hidden;
-} 
  
 ul li { 
+ list-style-type: none; 
  background: #cce5ff;  
  text-align: center; 
  font-family: Monaco, Consolas, "Lucida Console", monospace;  
  padding: 5px; 
+ margin-left: -50px;
  margin-bottom: 7px;
- height: 100px;
- width: 140px;
+ padding-bottom: 55px;
+ width: 120px;
 } 
 
 .thumbnail { 
@@ -85,7 +75,7 @@ ul li {
  
 .content{
  margin-top: 20px; 
- margin-right: 5vw;
+ margin-left: -10vw;
  font-size: 25px; 
  text-align: center;
  color: #ffffff;
@@ -94,27 +84,25 @@ ul li {
 
 aside {
  width: 100%;  
- max-width: 17vw;
+ max-width: 120px;
  position: sticky;
  top: 35px;
  text-decoration: none;
  float: right;
- margin-top: 1px;
- margin-bottom: 20px;
 }  
 
 section{
  background-color: #d1d1e0; 
  width: 100%;
  padding: 1.5em;
- margin: 0%;
+ margin: 0;
 }
  
 h1 { 
  color: #ffffff; 
  font-family: "Lucida Console", "Courier New", monospace; 
  text-align: center;
- padding-top: 13vw;
+ padding-top: 1vw;
  margin: 0;
  font-size: 3vw;
  text-shadow: 3px 2px 5px #202020;
