@@ -17,7 +17,6 @@ article {
  border: solid medium #092834;
  border-radius: 12px;
  width: 70vw;
- margin: 1vw auto;
  padding: 16px;
  background-color: #667ef5;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
@@ -152,7 +151,7 @@ p {
  display: flex;  
  flex-wrap: wrap-reverse;
  overflow: hidden;
- bottom: 0;
+ top: 35px;
 }
 
 .footer-column{           

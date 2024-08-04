@@ -95,9 +95,9 @@ ul li {
 aside {
  width: 100%;  
  max-width: 17vw;
- height: 1vw;
  position: sticky;
  top: 35px;
+ text-decoration: none;
  float: right;
  margin-top: 1px;
  margin-bottom: 20px;
