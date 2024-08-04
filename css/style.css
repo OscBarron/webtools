@@ -57,11 +57,12 @@ ul li {
  background: #cce5ff;  
  text-align: center; 
  font-family: Monaco, Consolas, "Lucida Console", monospace;  
- padding: 5px; 
- margin-left: -50px;
+ padding: 1px;
+ margin-left: -10vw;
  margin-bottom: 7px;
- padding-bottom: 55px;
- width: 120px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ width: 15vw;
 } 
 
 .thumbnail { 
