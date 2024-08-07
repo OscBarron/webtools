@@ -1,32 +1,57 @@
+/*Navigation Bar for Home*/ 
 .topnav {
-  display: flex;
   background-color: #333333;
-  overflow: hidden;
   position: sticky;
   top: 0;
-  width: 100%;
+  float: left;
+  display: block;
 }
 
 .topnav a {
  display: block;
- float: left;
  color: #f2f2f2;
  text-align: left;
  padding: 14px 16px;
  text-decoration: none;
  font-size: 18px;
 }
-
 .topnav a:hover {
   background-color: #dddddd;
   color: #000000;
 }
-
 .topnav a.active {
   background-color: #035268;
   color: #ffffff;
 }
 
 .sign-in {
-  margin-left: auto;
+  margin-top: 20vw;
+}
+
+/*Second Navigation Bar for other pages*/ 
+.sec-topnav {
+  background-color: #333333;
+  position: sticky;
+  top: 0;
+  display: flex;
+}
+
+.sec-topnav a {
+ display: block;
+ color: #f2f2f2;
+ text-align: left;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 18px;
+}
+.sec-topnav a:hover {
+  background-color: #dddddd;
+  color: #000000;
+}
+.sec-topnav a.active {
+  background-color: #035268;
+  color: #ffffff;
+}
+.sec-sign-in {
+ margin-left: auto;
 }
