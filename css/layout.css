@@ -201,8 +201,6 @@ main{
 header {
  grid-column-start: 1;
  grid-column-end: 4;   
- grid-row-start: header-start;
- grid-row-end: content-start;
  align-content: center;
 }
   
@@ -222,7 +220,7 @@ section {
 }
   
 aside {
- grid-column-start: aside;
+ grid-column-start: aside-start;
  grid-column-end: aside-end;
  grid-row-start: content-start;
  grid-row-end: footer-start;
@@ -233,6 +231,5 @@ aside {
 footer {
  grid-column-start: 1;
  grid-column-end: 4;
- grid-row-start: footer-start;   
 }
   
