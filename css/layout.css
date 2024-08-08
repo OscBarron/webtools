@@ -155,8 +155,8 @@ main{
  flex-wrap: wrap-reverse;
  overflow: hidden;
 }
-   
-.footer-column{           
+
+.flexfoot-column{           
  flex: 1;             
  margin: 0 50px;
  display: flex;
@@ -165,71 +165,58 @@ main{
  width: 100%;
  background-color: #92A4C8; 
 }
-   
-.footer-center {
- align-self: center;
-}
-   
+     
 .footer-column a { 
  text-decoration: none;
  display: block;
 }
 
 /*CSS Grid*/ 
-.grid-container {
+.grid-container { 
+ display: grid; 
+ grid-template-rows: [header-start] 1fr [content-start] auto [footer-start] auto; 
+ grid-template-columns: [nav] 1fr [main] 3fr [aside] 1fr; 
+ grid-template-areas: 
+  "head head head" 
+  "nav main aside"  
+  "foot foot foot"; 
+  justify-content: center;
+  grid-auto-flow: column; 
+} 
+       
+header { 
+ grid-area: head; 
+} 
+
+.topnav { 
+ grid-area: nav;
+ align-self: flex-start;  
+} 
+       
+main { 
+ grid-area: main; 
+} 
+       
+aside { 
+ grid-area: aside;
+ padding: 1em; 
+ align-self: flex-start;  
+} 
+       
+footer { 
+ grid-area: foot;
+} 
+
+.footer-grid {
  display: grid;
- grid-template-rows: [header-start] 1fr [content-start] auto [footer-start] auto;
- grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
- grid-template-areas:
-  "head head head"
-  "nav section aside"
-  "foot foot foot";
- grid-auto-flow: column;
+ grid-template-columns: repeat(3, 1fr);
+ background-color:#92A4C8;
+ align-items: center;
+ gap: 15vw;
 }
-  
-.grid-container {
- display: grid;
- grid-template-rows: [header-start] 1fr [content-start] auto [footer-start] auto;
- grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
- grid-template-areas:
- "head head head"
- "nav section aside"
- "foot foot foot";
- grid-auto-flow: column;
+
+.gridfoot-column { 
+  background-color: #7282a4;
+  text-align: center;
+  padding: 3vw;
 }
-  
-header {
- grid-column-start: 1;
- grid-column-end: 4;   
- align-content: center;
-}
-  
-.topnav {
- grid-column-start: nav;
- grid-column-end: nav-end;
- grid-row-start: content-start;
- grid-row-end: footer-start;
- align-self: flex-start;
-}
-  
-section {
- grid-column-start: section;
- grid-column-end: section-end;
- grid-row-start: content-start;
- grid-row-end: footer-start;
-}
-  
-aside {
- grid-column-start: aside-start;
- grid-column-end: aside-end;
- grid-row-start: content-start;
- grid-row-end: footer-start;
- padding: 1em;
- align-self: flex-start;
-}
-  
-footer {
- grid-column-start: 1;
- grid-column-end: 4;
-}
-  
