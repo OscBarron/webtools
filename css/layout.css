@@ -180,8 +180,6 @@ main{
   "head head head" 
   "nav main aside"  
   "foot foot foot"; 
-  justify-content: center;
-  grid-auto-flow: column; 
 } 
        
 header { 
@@ -190,7 +188,7 @@ header {
 
 .topnav { 
  grid-area: nav;
- align-self: flex-start;  
+ align-self: flex-start; 
 } 
        
 main { 
@@ -207,16 +205,28 @@ footer {
  grid-area: foot;
 } 
 
-.footer-grid {
- display: grid;
- grid-template-columns: repeat(3, 1fr);
- background-color:#92A4C8;
- align-items: center;
- gap: 15vw;
-}
+.footer-grid { 
+ display: grid; 
+ height: 200px; 
+ align-content: space-evenly; 
+ align-items: start;  
+ grid-template-columns: repeat(3, 1fr);    
+ gap: 10px; 
+ background-color:#92A4C8;  
+ padding: 10px; 
+} 
 
 .gridfoot-column { 
-  background-color: #7282a4;
-  text-align: center;
-  padding: 3vw;
+ background-color: #7282a4;    
+ text-align: center; 
+ padding: 20px 0; 
+ font-size: 15px; 
+} 
+
+.gridfoot-center{
+  background-color: #5b6c90;    
+  text-align: center; 
+  justify-self: center;
+  width: 30vw;
+  font-size: 110%;
 }
