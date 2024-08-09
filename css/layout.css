@@ -232,15 +232,29 @@ footer {
 }
 
 /*About Us*/ 
-.w3-container{
+.w3-container {
   display: grid;
-  grid-gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  align-content: space-evenly; 
+  gap: 10px;  
+  padding: 10px; 
 }
 
 .section-title {
- font-size: 18px;
- font-weight: bold;
- align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.about-me{
+  border: 2px solid #000000; 
+  border-radius: 8px;  
+  text-align: center; 
+  background-color: #8b8bc2; 
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+  padding: 15px; 
+  width: 30vw;
+  margin-bottom: 5vw;
 }
 
 .about-column{
@@ -248,15 +262,8 @@ footer {
   border-radius: 8px;  
   text-align: center; 
   background-color: #8b8bc2; 
-  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-  width: 96vw; 
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+  margin: 12px; 
+  width: 40vw; 
   padding: 10px; 
 }
-
-.about-gallery { 
-  display: flex; 
-  flex-flow: row wrap; 
-  justify-content: center;  
-  align-content: center; 
-  gap: 50px; 
- } 
