@@ -230,3 +230,33 @@ footer {
   width: 30vw;
   font-size: 110%;
 }
+
+/*About Us*/ 
+.w3-container{
+  display: grid;
+  grid-gap: 5px;
+}
+
+.section-title {
+ font-size: 18px;
+ font-weight: bold;
+ align-items: center;
+}
+
+.about-column{
+  border: 2px solid #000000; 
+  border-radius: 8px;  
+  text-align: center; 
+  background-color: #8b8bc2; 
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+  width: 96vw; 
+  padding: 10px; 
+}
+
+.about-gallery { 
+  display: flex; 
+  flex-flow: row wrap; 
+  justify-content: center;  
+  align-content: center; 
+  gap: 50px; 
+ } 
