@@ -233,37 +233,47 @@ footer {
 
 /*About Us*/ 
 .w3-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-content: space-evenly; 
-  gap: 10px;  
-  padding: 10px; 
-}
-
-.section-title {
-  font-size: 18px;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.about-me{
-  border: 2px solid #000000; 
-  border-radius: 8px;  
-  text-align: center; 
-  background-color: #8b8bc2; 
-  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
-  padding: 15px; 
-  width: 30vw;
-  margin-bottom: 5vw;
+.section-title { 
+ font-size: 18px; 
+ font-weight: bold; 
+ align-items: center; 
+} 
+
+.about-me{ 
+ border: 2px solid #000000;  
+ border-radius: 8px;   
+ text-align: center;  
+ background-color: #8b8bc2;  
+ box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+ padding: 15px;  
+ width: 30vw; 
+ margin-bottom: 5vw; 
+} 
+
+.header-container { 
+ width: 100%; 
+ text-align: center; 
+ margin-bottom: 20px; 
+} 
+
+.about-column{ 
+ border: 2px solid #000000;  
+ border-radius: 8px;   
+ text-align: center;  
+ background-color: #8b8bc2;  
+ box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+ margin: 12px;  
+ width: 90vw;  
+ padding: 10px;
+ padding-bottom: 20px;  
+} 
+
+.about-column p {
+  text-align: justify; 
 }
 
-.about-column{
-  border: 2px solid #000000; 
-  border-radius: 8px;  
-  text-align: center; 
-  background-color: #8b8bc2; 
-  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
-  margin: 12px; 
-  width: 40vw; 
-  padding: 10px; 
-}
